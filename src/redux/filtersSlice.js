@@ -3,7 +3,7 @@ const initialState = {
   name: "",
 };
 const slice = createSlice({
-  name: "filter",
+  name: "filters",
   initialState,
   reducers: {
     changeFilter(state, action) {
